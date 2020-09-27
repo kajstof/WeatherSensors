@@ -1,11 +1,12 @@
-# WeatherSensors
-WeatherSensors IoT project
+# WeatherSensors [![WeatherSensors](https://circleci.com/gh/kajstof/WeatherSensors.svg?style=svg)](https://circleci.com/gh/kajstof/WeatherSensors)
+
+WeatherSensors IoT project 
 
 ## WIP
 
-### WeatherSensors.Api
+## WeatherSensors.Api
 
-#### MeasurementManagerService.cs
+### MeasurementManagerService.cs
 
 * (34, 16) // TODO - Rewrite this method with ChainOfResponsibility pattern (or pipes)
 * (60, 20) // TODO - 3. If not exists blob try to find in historical.zip
@@ -13,6 +14,6 @@ WeatherSensors IoT project
 * (62, 20) // TODO - 5. If not exists then throw Exception or handle it in different way
 * (63, 20) // TODO - 6. Convert CsvFile to proper response
 
-#### SensorTypeExtension.cs
+### SensorTypeExtension.cs
 
 * (26, 12) // TODO - Move this functionality to Attribute - ResponseTypeAttribute
