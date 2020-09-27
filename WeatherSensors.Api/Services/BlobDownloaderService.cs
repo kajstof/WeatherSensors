@@ -3,6 +3,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using WeatherSensors.Api.Models;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Services
 {

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using WeatherSensors.Api.Models;
 using WeatherSensors.Api.Responses;
 
-namespace WeatherSensors.Api.Services
+namespace WeatherSensors.Api.Services.Interfaces
 {
     public interface IMeasurementManagerService
     {

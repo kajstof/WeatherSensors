@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WeatherSensors.Api.Services;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Controllers
 {

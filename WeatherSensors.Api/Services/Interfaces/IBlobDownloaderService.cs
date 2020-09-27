@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using WeatherSensors.Api.Models;
 
-namespace WeatherSensors.Api.Services
+namespace WeatherSensors.Api.Services.Interfaces
 {
     public interface IBlobDownloaderService
     {

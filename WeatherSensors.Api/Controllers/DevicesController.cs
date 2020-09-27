@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WeatherSensors.Api.Models;
 using WeatherSensors.Api.Services;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Controllers
 {

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Azure.Storage.Blobs;
+using WeatherSensors.Api.Services.Interfaces;
 using BlobInfo = WeatherSensors.Api.Models.BlobInfo;
 
 namespace WeatherSensors.Api.Services

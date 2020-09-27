@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using WeatherSensors.Api.Extensions;
 using WeatherSensors.Api.Models;
 using WeatherSensors.Api.Responses;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Services
 {

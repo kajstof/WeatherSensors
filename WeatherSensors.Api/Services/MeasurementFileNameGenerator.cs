@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.Extensions.Configuration;
 using WeatherSensors.Api.Models;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Services
 {

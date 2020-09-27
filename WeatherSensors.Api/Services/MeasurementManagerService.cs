@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Azure;
 using WeatherSensors.Api.Models;
 using WeatherSensors.Api.Responses;
+using WeatherSensors.Api.Services.Interfaces;
 
 namespace WeatherSensors.Api.Services
 {
