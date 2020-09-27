@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Moq;
 using WeatherSensors.Api.Models;
 using WeatherSensors.Api.Services;
+using WeatherSensors.Api.Services.Interfaces;
 using Xunit;
 
 namespace WeatherSensors.Tests
@@ -13,17 +14,16 @@ namespace WeatherSensors.Tests
         private readonly string _blobNameFormat = "{0}/{1}/{2:yyyy-MM-dd}.csv";
         private readonly string _blobNameHistoricalZip = "{0}/{1}/historical.zip";
 
-        private readonly IConfiguration _configuration;
-        private readonly MeasurementFileNameGenerator _sut;
+        private readonly IMeasurementFileNameGenerator _sut;
 
         public MeasurementFileNameGeneratorTests()
         {
-            _configuration = Mock.Of<IConfiguration>(x =>
+            var configuration = Mock.Of<IConfiguration>(x =>
                 x.GetSection("BlobNameFormat") == Mock.Of<IConfigurationSection>(y => y.Value == _blobNameFormat) &&
                 x.GetSection("BlobNameHistoricalZip") ==
                 Mock.Of<IConfigurationSection>(y => y.Value == _blobNameHistoricalZip));
 
-            _sut = new MeasurementFileNameGenerator(_configuration);
+            _sut = new MeasurementFileNameGenerator(configuration);
         }
 
         [Theory]
