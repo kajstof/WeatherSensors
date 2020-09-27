@@ -1,0 +1,39 @@
+﻿GET http://localhost:5001/api/v1/devices/dockan/data/2019-01-10/humidity
+Accept: application/json
+
+###
+
+GET http://localhost:5001/api/v1/devices/dockan/data/2019-01-10/rainfall
+Accept: application/json
+
+###
+
+GET http://localhost:5001/api/v1/devices/dockan/data/2019-01-10/temperature
+Accept: application/json
+
+###
+
+GET http://localhost:5001/api/v1/devices/dockan/data/2019-01-10
+Accept: application/json
+
+###
+
+GET http://localhost:5001/getdata?deviceId=dockan&date=2019-01-10&sensor=humidity
+Accept: application/json
+
+###
+
+GET http://localhost:5001/getdata?deviceId=dockan&date=2019-01-10&sensor=rainfall
+Accept: application/json
+
+###
+
+GET http://localhost:5001/getdata?deviceId=dockan&date=2019-01-10&sensor=temperature
+Accept: application/json
+
+###
+
+GET http://localhost:5001/getdata?deviceId=dockan&date=2019-01-10
+Accept: application/json
+
+###
