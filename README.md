@@ -16,6 +16,10 @@ Example endpoints:
 - getdata?deviceId=dockan&date=2019-01-10&sensor=temperature
 - getdata?deviceId=dockan&date=2019-01-10
 
+## Unit Tests
+
+At this moment there is only one class covered by Unit Tests: [MeasurementFileNameGeneratorTests.cs](https://github.com/kajstof/WeatherSensors/blob/master/WeatherSensors.Tests/MeasurementFileNameGeneratorTests.cs)
+
 ### MeasurementManagerService.cs
 
 * (34, 16) // TODO - Rewrite this method with ChainOfResponsibility pattern (or pipes)
