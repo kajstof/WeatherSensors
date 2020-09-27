@@ -6,6 +6,16 @@ WeatherSensors IoT project
 
 ## WeatherSensors.Api
 
+Example endpoints:
+- api/v1/devices/dockan/data/2019-01-10/humidity
+- api/v1/devices/dockan/data/2019-01-10/rainfall
+- api/v1/devices/dockan/data/2019-01-10/temperature
+- api/v1/devices/dockan/data/2019-01-10
+- getdata?deviceId=dockan&date=2019-01-10&sensor=humidity
+- getdata?deviceId=dockan&date=2019-01-10&sensor=rainfall
+- getdata?deviceId=dockan&date=2019-01-10&sensor=temperature
+- getdata?deviceId=dockan&date=2019-01-10
+
 ### MeasurementManagerService.cs
 
 * (34, 16) // TODO - Rewrite this method with ChainOfResponsibility pattern (or pipes)
