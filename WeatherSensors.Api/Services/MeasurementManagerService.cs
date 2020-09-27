@@ -58,8 +58,9 @@ namespace WeatherSensors.Api.Services
                 // if (!_fileCacheService.CheckFileExists())
 
                 // TODO - 3. If not exists blob try to find in historical.zip
-                // TODO - 4. If not exists blob try to download new historical (if newer)
-                // TODO - 5. Exception
+                // TODO - 4. If not exists blob try to download new historical (if newer) and find in new one
+                // TODO - 5. If not exists then throw Exception or handle it in different way
+                // TODO - 6. Convert CsvFile to proper response
             }
 
             return Enumerable.Empty<IMeasurementResponse>();
