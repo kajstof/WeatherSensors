@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherSensors.Api", "WeatherSensors.Api\WeatherSensors.Api.csproj", "{0F8AA77E-9542-45F5-B43D-B1A89D18B094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherSensors.Tests", "WeatherSensors.Tests\WeatherSensors.Tests.csproj", "{D3B238A7-C1C5-4171-B04A-DB88C5744AC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F8AA77E-9542-45F5-B43D-B1A89D18B094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8AA77E-9542-45F5-B43D-B1A89D18B094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8AA77E-9542-45F5-B43D-B1A89D18B094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8AA77E-9542-45F5-B43D-B1A89D18B094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B238A7-C1C5-4171-B04A-DB88C5744AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B238A7-C1C5-4171-B04A-DB88C5744AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B238A7-C1C5-4171-B04A-DB88C5744AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B238A7-C1C5-4171-B04A-DB88C5744AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
